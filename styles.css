@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap');
+
+.notfound{
+    
+    position: absolute;
+    max-width: 133px;
+    min-height: 25px;
+    top: 40px;
+    left: 77px;
+
+    font-family: 'Inconsolata' , sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -8%;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.scarecrow-img{
+    position: absolute;
+    max-width: 540px;
+    min-height: 448px;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.83%;
+}
+
+.bad-news{
+    position: absolute;
+    max-width: 586px;
+    min-height: 190px;
+    top: 165px;
+    left: 735px;
+
+    font-family: 'Space Mono' , sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94.78px;
+    letter-spacing: -3.5%;
+    color: #333333;
+}
+
+.content{
+    position: absolute;
+    max-width: 381px;
+    min-height: 108px;
+    top: 391px;
+    left: 736px;
+
+    font-family: 'Space Mono' , sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Space Mono' , sans-serif;
+    font-weight: 700;
+}
+
+.homepage-btn{
+    position: absolute;
+    width: 216px;
+    min-height: 68px;
+    top: 563px;
+    left: 740px;
+    background-color: #333333;
+}
+
+a.footerlink{
+    text-decoration: none;
+    color: #bdbdbd;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+}
+
+.footer{
+    position: absolute;
+    min-height: 17px;
+    top: 1039px;
+    left: 577px;
+
+    color: #bdbdbd;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: center;
+}
